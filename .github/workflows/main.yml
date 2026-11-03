@@ -1,4 +1,3 @@
-
 name: YouTube Auto Upload
 
 on:
@@ -8,6 +7,9 @@ jobs:
   upload:
     runs-on: ubuntu-latest
     steps:
-      - name: Start
-        run: echo "YouTube upload workflow ready"
+      - name: Download video
+        run: echo "Video source will be added"
+
+      - name: Upload to YouTube
+        run: echo "YouTube authentication will be added"
         
